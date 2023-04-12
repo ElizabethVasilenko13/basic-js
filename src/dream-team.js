@@ -24,8 +24,6 @@ function createDreamTeam(members) {
     .join("")
 }
 
-// /console.log(createDreamTeam(3));
-
 module.exports = {
   createDreamTeam
 };
