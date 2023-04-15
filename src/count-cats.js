@@ -18,12 +18,6 @@ function countCats(matrix) {
     return matrix.flat().filter(el => el === '^^').length
 }
 
-console.log(countCats([
-  ['##', 'dd', '00'],
-  ['^^', '..', 'ss'],
-  ['AA', 'dd', 'Oo'],
-]));
-
 module.exports = {
   countCats
 };
