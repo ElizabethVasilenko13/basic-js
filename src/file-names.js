@@ -29,6 +29,7 @@ function renameFiles(names) {
       res[name] = 1;
     }
   }
+  
   return result
 }
 
